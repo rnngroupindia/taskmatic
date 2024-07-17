@@ -64,7 +64,7 @@
 </style>
 
 <div class="footer">
-  <p>Project Management System Software Designed by <a href="https://www.mayurik.com" target="_blank">Mayuri K. Freelancer India</a> 2024 All Rights Reserved.</p>
+  <p>Project Management System Software Designed by <a href="https://app.rnngroup.com" target="_blank">RNNGroup Inc</a> @ 2024 All Rights Reserved.</p>
 </div>
 </body>
 </html>

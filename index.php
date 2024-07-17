@@ -31,7 +31,7 @@ include("include/login_header.php");
 			  <div class="form-heading">
 			
 			    <h2 class="text-left">Login Panel</h2>
-			    <p class="text-left">Task Management System by Mayuri K.</p>
+			    <p class="text-left">Task Management System by <span style='color:red;font-size:16px;'>RnnGroup</span></p>
 			  </div>
 			  
 			  <!-- <div class="login-gap"></div> -->

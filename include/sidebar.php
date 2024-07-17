@@ -44,7 +44,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="task-info.php"><span style=>
-        <img src="assets/img/dummyLogo.png" height="60px"></span></a>
+        <img src="assets/img/dummyLogo.png" height="50px"></span></a>
     </div>
 
     <?php
@@ -59,15 +59,6 @@
         <li <?php if($page_name == "Task_Info" ){echo "class=\"active\"";} ?>><a href="task-info.php"><span style="font-size:16px;    margin-right: 13px;" class="pull-left hidden-xs showopacity glyphicon glyphicon-tasks" ></span> Task Mangement</a></li>
         <li <?php if($page_name == "Attendance" ){echo "class=\"active\"";} ?>><a href="attendance-info.php"><span style="font-size:16px;    margin-right: 13px;" class="pull-left hidden-xs showopacity glyphicon glyphicon-calendar"></span> Attendance </a></li>
         <li <?php if($page_name == "Admin" ){echo "class=\"active\"";} ?>><a href="manage-admin.php"><span style="font-size:16px;    margin-right: 13px;" class="pull-left hidden-xs showopacity glyphicon glyphicon-user"></span> Administration</a></li>
-
-        <li <?php if($page_name == "Admin" ){echo "class=\"active\"";} ?>><a href="https://www.mayurik.com/#download_section"><span style="font-size:16px;    margin-right: 13px;" class="pull-left hidden-xs showopacity glyphicon glyphicon-download"></span> More Projects</a></li>
-
-        <li <?php if($page_name == "Admin" ){echo "class=\"active\"";} ?>><a href="https://www.youtube.com/watch?v=jm8UH0TrngQ"><span style="font-size:16px;    margin-right: 13px;" class="pull-left hidden-xs showopacity glyphicon glyphicon-qrcode  
-"></span>Pro Version</a></li>
-
-      <li <?php if($page_name == "Admin" ){echo "class=\"active\"";} ?>><a href="https://www.youtube.com/watch?v=jm8UH0TrngQ"><span style="font-size:16px;    margin-right: 13px;" class="pull-left hidden-xs showopacity glyphicon glyphicon-hdd 
-"></span> Database</a></li>
-
         <li ><a href="?logout=logout"><span style="font-size:16px;    margin-right: 13px;" class="pull-left hidden-xs showopacity glyphicon glyphicon-log-out"></span> Logout</a></li>
       </ul>
     </div>

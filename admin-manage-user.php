@@ -1,8 +1,5 @@
 <?php
 require 'authentication.php'; // admin authentication check 
-//  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com
 // auth check
 $user_id = $_SESSION['admin_id'];
 $user_name = $_SESSION['name'];
@@ -140,9 +137,7 @@ if(isset($_POST['add_new_employee'])){
                 </tr>
               </thead>
               <tbody>
-//  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com
+
               <?php 
                 $sql = "SELECT * FROM tbl_admin WHERE user_role = 2 ORDER BY user_id DESC";
                 $info = $obj_admin->manage_all_info($sql);
@@ -165,18 +160,12 @@ if(isset($_POST['add_new_employee'])){
                 
               <?php  } ?>
 
-
-                
               </tbody>
             </table>
           </div>
         </div>
       </div>
     </div>
-
-//  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com
 <?php
 if(isset($_SESSION['update_user_pass'])){
 
