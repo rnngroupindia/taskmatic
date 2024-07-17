@@ -9,9 +9,7 @@ if(isset($_SESSION['admin_id'])){
   if ($user_id != NULL && $security_key != NULL) {
     header('Location: task-info.php');
   }
-}//  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com
+}
 
 if(isset($_POST['login_btn'])){
  $info = $obj_admin->admin_login_check($_POST);
@@ -24,8 +22,7 @@ include("include/login_header.php");
 <div class="ad-auth-wrapper">
 
 		<div class="well col-md-6" style="position:relative;">
-			<div class="row" style="
-">
+			<div class="row">
 				<div class="col-md-6">
 					<img src="assets/img/Taskko.png" width="90%" style="margin-top: 90px;">
 			</div>
@@ -63,12 +60,7 @@ include("include/login_header.php");
 		</div>
 		</div>
 	</div>
-<!-- 
-//  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com -->
 <?php
-
 include("include/footer.php");
 
 ?>
